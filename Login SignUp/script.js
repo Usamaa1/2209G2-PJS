@@ -41,12 +41,7 @@ let addUser = () => {
   console.log(stringified);
   localStorage.setItem('userData', stringified)
   
-  let uD = `[{
-"uN":"U R",
-"e": "email@33.com"
-}]`
-  
-localStorage.setItem('uD', uD)
+
 
   
   console.log(userObj)
@@ -54,7 +49,12 @@ localStorage.setItem('uD', uD)
 
 };
 
-
+  let uD = `[{
+"uN":"U R",
+"e": "email@33.com"
+}]`
+  
+localStorage.setItem('uD', uD)
 
 
 
